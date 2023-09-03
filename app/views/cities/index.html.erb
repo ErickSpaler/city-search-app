@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>City Search App</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>City</th>
+        <th>State</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @cities.each do |city| %>
+        <tr>
+          <td><%= city.state.name %></td>
+          <td><%= city.name %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+</div>
