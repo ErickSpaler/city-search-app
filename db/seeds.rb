@@ -12,16 +12,16 @@ City.destroy_all
 puts 'Creating states'
 
 # States
-state_paraná = State.create(name: 'Paraná')
+state_parana = State.create(name: 'Paraná')
 state_santa_catarina = State.create(name: 'Santa Catarina')
 state_rio_grande = State.create(name: 'Rio Grande do Sul')
 
 puts 'Creating cities'
 
 # Cities
-City.create(name: 'Curitiba', state: state_paraná)
-City.create(name: 'Londrina', state: state_paraná)
-City.create(name: 'Maringá', state: state_paraná)
+City.create(name: 'Curitiba', state: state_parana)
+City.create(name: 'Londrina', state: state_parana)
+City.create(name: 'Maringá', state: state_parana)
 
 City.create(name: 'Joinville', state: state_santa_catarina)
 City.create(name: 'Florianópolis', state: state_santa_catarina)
