@@ -1,5 +1,3 @@
-# City Search App
-
 # Sobre o projeto
   City Search App é uma aplicação fullstack em Rails de consulta de cidades e estados a partir de um banco de dados já pré-estabelecido.
 
