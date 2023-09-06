@@ -1,25 +1,28 @@
-# README
+# City Search App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Sobre o projeto
+  City Search App é uma aplicação fullstack de consulta de cidades e estados a partir de um banco de dados já pré-estabelecido.
 
-Things you may want to cover:
+  A aplicação consisite em retornar as cidades de um estado a partir de uma busca completa ou parcial do nome da cidade ou estado.
 
-* Ruby version
+## Layout web
+<img src="./app/assets/images/layout.jpeg">
+<img src="./app/assets/images/layout2.jpeg">
+<img src="./app/assets/images/layout3.jpeg">
 
-* System dependencies
+## DataBase Schema
+<img src="./app/assets/images/schema1.jpeg">
 
-* Configuration
+# Tecnologias utilizadas
 
-* Database creation
+* Rails 5.2.6
 
-* Database initialization
+* Ruby 2.7.0
 
-* How to run the test suite
+* Bootstrap 5.3.1
 
-* Services (job queues, cache servers, search engines, etc.)
+* Pg_search
 
-* Deployment instructions
+* Banco de dados: Postgresql
 
-* ...
-# city-search-app
+# Como executar o projeto

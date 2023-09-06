@@ -1,3 +1,4 @@
+# City model with pg_search config for the searching
 class City < ApplicationRecord
   belongs_to :state
   include PgSearch::Model
